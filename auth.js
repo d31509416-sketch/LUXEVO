@@ -7,7 +7,6 @@ import {
   signOut, sendPasswordResetEmail, onAuthStateChanged
 } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js";
 import { firebaseConfig } from "./firebase-config.js";
-
 const el = id => document.getElementById(id);
 const ui = window.LUXEVOAuthUI;
 const form = el('auth-form');
